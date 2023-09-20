@@ -1,6 +1,6 @@
 # Lost Pirates
 
-
+<img src='IMG_5662.jpg'>
 
 ## Welcome Aboard
 
