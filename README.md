@@ -1,6 +1,6 @@
 # Lost Pirates
 
-<img src="images/IMG_5662.jpg">
+<img src="/images/IMG_5662.jpg">
 
 ## Welcome Aboard
 
@@ -8,7 +8,7 @@ Arrr, me hearties! Gather 'round and listen to the tale of the Lost Pirates, a t
 
 
 
-<img src="images/IMG_5665.jpg">
+<img src="/images/IMG_5665.jpg">
 
 
 
