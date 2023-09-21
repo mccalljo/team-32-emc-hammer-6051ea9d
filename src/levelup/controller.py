@@ -20,12 +20,6 @@ class Direction(Enum):
     EAST = "e"
     WEST = "w"
 
-"""
-class move(Direction):
-    def __init__(self):
-        if self.EAST:
-            position_x = position_x + 1
-"""
 
 class CharacterNotFoundException(Exception):
     pass
