@@ -8,7 +8,7 @@ VALID_DIRECTIONS = [x.value for x in Direction]
 class GameApp:
 
     controller: GameController
-    welcome_message: string = """
+    """welcome_message: string = 
         
                 |~
                |/    w
@@ -26,7 +26,6 @@ class GameApp:
 
     def __init__(self):
         self.controller = GameController()
-        print(self.welcome_message)
 
     def prompt(self, menu: str, validation_fn: Callable[[str], bool]) -> str:
         while True:

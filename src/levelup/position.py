@@ -1,6 +1,6 @@
 import math
 
-class point:
+class Positions:
     position_x: int = 0
     position_y: int = 0
 

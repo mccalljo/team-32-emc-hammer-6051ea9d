@@ -1,3 +1,7 @@
+
+from levelup.direction import Direction
+from levelup.map import Map
+
 class Character:
     name = ""
 
@@ -7,9 +11,11 @@ class Character:
     def getName():
         pass
 
-    def enterMap(map):
-        pass
+    def move(self, direction :Direction) -> None:
+        self.current_position = self.map.calculate_new_postion(
+            self.current_position, direction)
 
-    def getPositon():
-        pass
+    def enter_map(self, map :Map):
+        self.map = map
+        self.current_position = self.map.starting_position
 
