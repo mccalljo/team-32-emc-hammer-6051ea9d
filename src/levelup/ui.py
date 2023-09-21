@@ -1,4 +1,5 @@
 import logging
+import string
 from typing import Callable
 from levelup.controller import GameController, Direction, InvalidMoveException
 
@@ -7,9 +8,25 @@ VALID_DIRECTIONS = [x.value for x in Direction]
 class GameApp:
 
     controller: GameController
+    welcome_message: string = """
+        
+                |~
+               |/    w
+              / (   (|   
+             /( (/   |)  |
+      ____  ( (/    (|   | )  ,
+     |----\ (/ |    /|   |'\ /^;
+    \---*---Y--+-----+---+--/(
+     \------*---*--*---*--/
+      '~~ ~~~~~~~~~~~~~~~
+
+    Welcome Captain. Yer ship the Sea Dork is ready to set sail
+
+    """
 
     def __init__(self):
         self.controller = GameController()
+        print(self.welcome_message)
 
     def prompt(self, menu: str, validation_fn: Callable[[str], bool]) -> str:
         while True:

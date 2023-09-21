@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from enum import Enum
 
 
-DEFAULT_CHARACTER_NAME = "Character"
+DEFAULT_CHARACTER_NAME = "Captian Dork"
 
 #TODO: ADD THINGS YOU NEED FOR STATUS
 @dataclass
@@ -19,6 +19,13 @@ class Direction(Enum):
     SOUTH = "s"
     EAST = "e"
     WEST = "w"
+
+"""
+class move(Direction):
+    def __init__(self):
+        if self.EAST:
+            position_x = position_x + 1
+"""
 
 class CharacterNotFoundException(Exception):
     pass
