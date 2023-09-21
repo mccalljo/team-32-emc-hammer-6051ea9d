@@ -8,7 +8,7 @@ VALID_DIRECTIONS = [x.value for x in Direction]
 class GameApp:
 
     controller: GameController
-    """welcome_message: string = 
+    welcome_message: string = """
         
                 |~
                |/    w
