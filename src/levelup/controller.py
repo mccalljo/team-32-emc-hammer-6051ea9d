@@ -3,7 +3,6 @@ from typing import Callable
 from levelup.controller import Controller, Direction, InvalidMoveException
 
 VALID_DIRECTIONS = [x.value for x in Direction]
-
 DEFAULT_CHARACTER_NAME = "Captian Dork"
 
 #TODO: ADD THINGS YOU NEED FOR STATUS
@@ -18,10 +17,10 @@ class GameStatus:
 
 class GameApp:
 
-    controller: Controller
+    controller: controller
 
     def __init__(self):
-        self.controller = Controller()
+        self.controller = controller()
 
     def prompt(self, menu: str, validation_fn: Callable[[str], bool]) -> str:
         while True:
