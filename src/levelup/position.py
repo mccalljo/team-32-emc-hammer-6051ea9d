@@ -11,6 +11,4 @@ class point:
     def __init__(self, position_x, position_y):
         self.position_x = position_x
         self.position_y = position_y
-        self.coordinates = (position_x, position_y)
-
-    
+        pointcoordinates = point(position_x, position_y)
