@@ -20,12 +20,15 @@ class GameApp:
      \------*---*--*---*--/
       '~~ ~~~~~~~~~~~~~~~
 
-    Welcome Captain. Yer ship the Sea Dork is ready to set sail
+    Welcome Captain. Yer ship the Sea Dork is ready to set sail in search of python booty
+
+    
 
     """
 
     def __init__(self):
         self.controller = GameController()
+        print(self.welcome_message)
 
     def prompt(self, menu: str, validation_fn: Callable[[str], bool]) -> str:
         while True:
