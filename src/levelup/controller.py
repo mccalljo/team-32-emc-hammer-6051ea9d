@@ -2,7 +2,7 @@ import logging
 from dataclasses import dataclass
 from levelup.character import Character
 from enum import Enum
-
+from levelup.map import Map
 
 DEFAULT_CHARACTER_NAME = "Captain Sir Dorks A Lot"
 
