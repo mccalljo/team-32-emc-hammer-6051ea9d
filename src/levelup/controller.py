@@ -4,7 +4,7 @@ from levelup.character import Character
 from enum import Enum
 
 
-DEFAULT_CHARACTER_NAME = "Character"
+DEFAULT_CHARACTER_NAME = "Captain Sir Dorks A Lot"
 
 #TODO: ADD THINGS YOU NEED FOR STATUS
 @dataclass
